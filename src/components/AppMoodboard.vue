@@ -1,7 +1,9 @@
 <template>
     <div>
       <h2>Moodboard</h2>
-      <p>Content for Moodboard.</p>
+
+        <img src="../assets/moodboard.png" alt="Alex Martinez" />
+
     </div>
   </template>
   
