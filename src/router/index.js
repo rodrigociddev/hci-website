@@ -6,6 +6,7 @@ import Persona2 from '../components/AppPersona2.vue'
 import Scenario1 from '../components/AppScenario1.vue'
 import Scenario2 from '../components/AppScenario2.vue'
 import Moodboard from '../components/AppMoodboard.vue'
+import Storyboard from '@/components/AppStoryboard.vue'
 import Flowchart from '../components/AppFlowchart.vue'
 import Wireframes from '../components/AppWireframes.vue'
 import GUI from '../components/AppGUI.vue'
@@ -19,6 +20,7 @@ const routes = [
   { path: '/scenario1', component: Scenario1 },
   { path: '/scenario2', component: Scenario2 },
   { path: '/moodboard', component: Moodboard },
+  { path: '/storyboard', component: Storyboard },
   { path: '/flowchart', component: Flowchart },
   { path: '/wireframes', component: Wireframes },
   { path: '/gui', component: GUI },

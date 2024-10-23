@@ -9,6 +9,7 @@
         <li><router-link to="/scenario1">Scenario 1</router-link></li>
         <li><router-link to="/scenario2">Scenario 2</router-link></li>
         <li><router-link to="/moodboard">Moodboard</router-link></li>
+        <li><router-link to="/storyboard">Storyboard</router-link></li>
         <li><router-link to="/flowchart">Flowchart</router-link></li>
         <li><router-link to="/wireframes">Wireframes</router-link></li>
         <li><router-link to="/gui">GUI</router-link></li>
