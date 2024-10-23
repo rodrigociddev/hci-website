@@ -22,3 +22,18 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### Deployment
+```
+npm run build
+```
+```
+git add dist
+```
+```
+git commit -m 'adding dist subtree'
+```
+```
+git subtree push --prefix dist origin gh-pages
+```
