@@ -1,19 +1,16 @@
 <template>
-    <div>
-      <h2>Moodboard</h2>
+  <div>
+    <h2>Moodboard</h2>
+    <img src="../assets/moodboard.png" alt="Alex Martinez" />
+  </div>
+</template>
 
-        <img src="../assets/moodboard.png" alt="Alex Martinez" />
+<script>
+export default {
+  name: 'AppMoodboard'
+}
+</script>
 
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'AppMoodboard'
-  }
-  </script>
-  
-  <style scoped>
-  /* Add styles specific to this component here */
-  </style>
-  
+<style scoped>
+/* Add styles specific to this component here */
+</style>
