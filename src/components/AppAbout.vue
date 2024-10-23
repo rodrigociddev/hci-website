@@ -20,7 +20,6 @@ export default {
 
 <style scoped>
 .about {
-  font-family: Arial, sans-serif;
   padding: 20px;
   text-align: center;
 }

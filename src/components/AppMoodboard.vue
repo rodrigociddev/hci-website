@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="moodboard">
     <h2>Moodboard</h2>
     <img src="../assets/moodboard.png" alt="Alex Martinez" />
   </div>
@@ -12,5 +12,7 @@ export default {
 </script>
 
 <style scoped>
-/* Add styles specific to this component here */
+.moodboard img {
+  width: 500px;
+}
 </style>

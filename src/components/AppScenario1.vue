@@ -19,7 +19,6 @@ export default {
 
 <style scoped>
 .scenario {
-  font-family: Arial, sans-serif;
   padding: 20px;
 }
 </style>

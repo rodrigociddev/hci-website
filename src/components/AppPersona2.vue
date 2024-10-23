@@ -39,7 +39,6 @@
 
 <style scoped>
 .persona {
-  font-family: Arial, sans-serif;
 }
 
 .content {
