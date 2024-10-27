@@ -1,7 +1,7 @@
 <template>
     <div>
       <h2>Flowchart</h2>
-      <p>Content for Flowchart.</p>
+      <img src="../assets//flowchart.png" alt="">
     </div>
   </template>
   
