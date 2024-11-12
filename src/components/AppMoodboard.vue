@@ -1,7 +1,7 @@
 <template>
   <div class="moodboard">
     <h2>Moodboard</h2>
-    <img src="../assets/moodboard.png" alt="Alex Martinez" />
+    <img src="../assets/moodboard.png" alt="moodboard" />
   </div>
 </template>
 
