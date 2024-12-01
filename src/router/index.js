@@ -11,7 +11,6 @@ import Storyboard from '@/components/AppStoryboard.vue'
 import Flowchart from '../components/AppFlowchart.vue'
 import Wireframes from '../components/AppWireframes.vue'
 import GUI from '../components/AppGUI.vue'
-import Prototypes from '../components/AppPrototypes.vue'
 import ProjectSearch from '@/components/ProjectSearch.vue'
 import ProjectGame from '@/components/ProjectGame.vue'
 
@@ -30,7 +29,6 @@ const routes = [
   { path: '/flowchart', component: Flowchart },
   { path: '/wireframes', component: Wireframes },
   { path: '/gui', component: GUI },
-  { path: '/prototypes', component: Prototypes }
 ]
 
 const router = createRouter({
