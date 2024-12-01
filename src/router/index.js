@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import ProjectHome from '../components/ProjectHome.vue'
 import About from '../components/AppAbout.vue'
 import Research from '../components/AppResearch.vue'
 import Persona1 from '../components/AppPersona1.vue'
@@ -11,8 +12,13 @@ import Flowchart from '../components/AppFlowchart.vue'
 import Wireframes from '../components/AppWireframes.vue'
 import GUI from '../components/AppGUI.vue'
 import Prototypes from '../components/AppPrototypes.vue'
+import ProjectSearch from '@/components/ProjectSearch.vue'
+import ProjectGame from '@/components/ProjectGame.vue'
 
 const routes = [
+  { path: '/project-home', component: ProjectHome},
+  { path: '/project-search', component: ProjectSearch},
+  { path: '/game/:id', component: ProjectGame },
   { path: '/', component: About },
   { path: '/research', component: Research },
   { path: '/persona1', component: Persona1 },
